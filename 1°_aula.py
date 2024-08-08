@@ -16,3 +16,26 @@ frozenset (conjunto imutável): Conjunto imutável de itens únicos. conjunto_im
 # Bool : True ou False. resultado = True
 # Tipo None NoneType: Ausência de valor ou valor nulo. lista = None;
 # function: Funções definidas pelo usuário ou integradas
+
+
+# PEP8 - boas praticas de programação em python
+#exemplo de má pratica:
+
+def main() 
+
+  #ler as entradas do usuário
+  num1: int = int(input("Digite o primeiro numero: "))
+  num2: int = int(input("Digite o segundo numero: "))
+
+  # operação somar
+  print(f"({num1} + {num2} = {num1} + {num2})")
+  #operação subtrair
+  print(f"({num1} - {num2} = {num1} - {num2})")
+  # operação multiplicar
+  print(f"({num1} * {num2} = {num1} * {num2})")
+  # operação divisão (resultado inteiro0
+  print(f"({num1} // {num2} = {num1} // {num2})")
+
+
+# boas particas:
+def main() -> None: # informa que se trata de um procedimendo e não uma função, pois não retorna nada (-> None)
